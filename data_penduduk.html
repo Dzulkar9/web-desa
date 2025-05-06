@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desa Sejahtera - Sistem Informasi Desa</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 22V4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v18Z"/><path d="M6 12H4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h2"/><path d="M18 12h2a2 2 0 0 1 2 2v6a2 2 0 0 1-2 2h-2"/><path d="M10 2h4"/><path d="M10 6h4"/><path d="M10 10h4"/></svg>
+                    <div>
+                        <h1>Desa Sejahtera</h1>
+                        <p>Sistem Informasi Desa</p>
+                    </div>
+                </div>
+                <button class="menu-toggle" onclick="toggleMenu()">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" y1="12" x2="20" y2="12"/><line x1="4" y1="6" x2="20" y2="6"/><line x1="4" y1="18" x2="20" y2="18"/></svg>
+                </button>
+                <nav class="nav" id="nav">
+                    <a href="index.html">Beranda</a>
+                    <a href="index.html#profil">Profil</a>
+                    <a href="index.html#layanan">Layanan</a>
+                    <a href="index.html#berita">Berita</a>
+                    <a href="index.html#kontak">Kontak</a>
+                    <a href="#kontak">login</a>
+                </nav>
+            </div>
+        </div>
+        <body>
+          
+            <section class="services" id="layanan">
+                <div class="container">
+                    <h2>Layanan Kami</h2>
+                    <div class="services-grid">
+                        <div class="service-card">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="service-icon"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+                            <h3>Total Penduduk</h3>
+                            <p>1234</p>
+                            <button class="link-btn"><a href="data_penduduk.html">Selengkapnya →</a></button>
+                        </div>
+                        <div class="service-card">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="service-icon"><path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><line x1="10" y1="9" x2="8" y2="9"/></svg>
+                            <h3>Layanan Administrasi</h3>
+                            <p>Pengurusan surat dan dokumen kependudukan</p>
+                            <button class="link-btn"><a href="layanan.html">Selengkapnya →</a></button>
+                        </div>
+                        <div class="service-card">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
+                                <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z" /></svg>                              
+                            <h3>Agenda Desa</h3>
+                            <p>Jadwal kegiatan dan acara penting di desa</p>
+                            <button class="link-btn"><a href="agenda.html">Selengkapnya →</a></button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div class="footer-bottom">
+                <p>© 2024 Desa Sejahtera. Hak Cipta Dilindungi.</p>
+            </div>
+        </div>
+    </footer>
+
+    <link rel="stylesheet" href="script.js">
+</body>
+</html>

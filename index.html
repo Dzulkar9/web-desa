@@ -27,14 +27,15 @@
                     <a href="#layanan">Layanan</a>
                     <a href="#berita">Berita</a>
                     <a href="#kontak">Kontak</a>
+                    <a href="#">login</a>
                 </nav>
             </div>
         </div>
     </header>
 
     <!-- Hero Section -->
-    <section class="hero">
-        <img src="https://images.unsplash.com/photo-1596392927852-2a18c787b221?auto=format&fit=crop&q=80&w=1920" alt="Desa Sejahtera">
+    <section id="beranda" class="hero">
+        <img src="gambar desa.jpeg" alt="Desa Sejahtera">
         <div class="hero-content">
             <h2>Selamat Datang di Desa Sejahtera</h2>
             <p>Membangun Desa untuk Masa Depan yang Lebih Baik</p>
@@ -51,19 +52,19 @@
                     <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="service-icon"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
                     <h3>Data Penduduk</h3>
                     <p>Informasi lengkap mengenai data demografis penduduk desa</p>
-                    <button class="link-btn">Selengkapnya →</button>
+                    <button class="link-btn"><a href="data_penduduk.html">Selengkapnya →</a></button>
                 </div>
                 <div class="service-card">
                     <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="service-icon"><path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><line x1="10" y1="9" x2="8" y2="9"/></svg>
                     <h3>Layanan Administrasi</h3>
                     <p>Pengurusan surat dan dokumen kependudukan</p>
-                    <button class="link-btn">Selengkapnya →</button>
+                    <button class="link-btn"><a href="layanan.html">Selengkapnya →</a></button>
                 </div>
                 <div class="service-card">
                     <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="service-icon"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
                     <h3>Agenda Desa</h3>
                     <p>Jadwal kegiatan dan acara penting di desa</p>
-                    <button class="link-btn">Selengkapnya →</button>
+                    <button class="link-btn"><a href="agenda.html">Selengkapnya →</a></button>
                 </div>
             </div>
         </div>
@@ -99,7 +100,7 @@
             <h2>Berita Terkini</h2>
             <div class="news-grid">
                 <article class="news-card">
-                    <img src="https://images.unsplash.com/photo-1593766788306-28561a605b44?auto=format&fit=crop&q=80&w=1200" alt="Gotong Royong">
+                    <img src="gotongRoyong.jpg" alt="Gotong Royong">
                     <div class="news-content">
                         <h3>Gotong Royong Membersihkan Desa</h3>
                         <p>Warga desa bersama-sama membersihkan lingkungan dalam rangka menyambut HUT RI</p>
@@ -107,7 +108,7 @@
                     </div>
                 </article>
                 <article class="news-card">
-                    <img src="https://images.unsplash.com/photo-1569025690938-a00729c9e1f9?auto=format&fit=crop&q=80&w=1200" alt="Panen Raya">
+                    <img src="panen.jpg" alt="Panen Raya">
                     <div class="news-content">
                         <h3>Panen Raya Desa Sejahtera</h3>
                         <p>Hasil panen tahun ini meningkat 25% dibanding tahun sebelumnya</p>
@@ -115,10 +116,10 @@
                     </div>
                 </article>
                 <article class="news-card">
-                    <img src="https://images.unsplash.com/photo-1607453998774-d533f65dac99?auto=format&fit=crop&q=80&w=1200" alt="Vaksinasi">
+                    <img src="imunisasi.jpg" alt="Imunisasi">
                     <div class="news-content">
-                        <h3>Program Vaksinasi Desa</h3>
-                        <p>90% warga desa telah mendapatkan vaksin COVID-19</p>
+                        <h3>Program Imunisasi Desa</h3>
+                        <p>Para orang tua desa sejahterah masih ada yang menolak anaknya untuk ikut imunisasi</p>
                         <button class="link-btn">Baca selengkapnya →</button>
                     </div>
                 </article>
@@ -180,11 +181,6 @@
         </div>
     </footer>
 
-    <script>
-        function toggleMenu() {
-            const nav = document.getElementById('nav');
-            nav.classList.toggle('active');
-        }
-    </script>
+    <link rel="stylesheet" href="script.js">
 </body>
 </html>

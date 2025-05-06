@@ -311,6 +311,95 @@ body {
     border-top: 1px solid #166534;
 }
 
+/*layanan */
+.admin-section {
+    background-color: #f9fafb;
+    padding: 50px 0;
+    text-align: center;
+  }
+  .admin-section h2 {
+    margin-bottom: 30px;
+  }
+  .admin-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  .admin-card {
+    background-color: #41937c;
+    color: white;
+    padding: 20px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .admin-card-icon {
+    font-size: 40px;
+    margin-bottom: 10px;
+    color: #ffbd4a;
+  }
+  .admin-card-number {
+    font-size: 32px;
+    font-weight: bold;
+  }
+  .admin-card-label {
+    margin-top: 5px;
+  }
+
+/* agenda */
+
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .calendar {
+    max-width: 800px;
+    margin: 0 auto;
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  .calendar table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  .calendar th {
+    background-color: white;
+    color:rgb(0, 0, 0);
+    padding: 10px;
+  }
+  .calendar td {
+    height: 100px;
+    text-align: left;
+    vertical-align: top;
+    padding: 8px;
+    border: 1px solid #ddd;
+    color: #000;
+  }
+  .event {
+    background-color: #94d2bd;
+    color: #000;
+    font-size: 0.85em;
+    margin-top: 5px;
+    padding: 3px;
+    border-radius: 5px;
+  }
+
+  .services-grid .service-card a {
+    text-decoration: none;
+    color: #15803d;
+  }
+
+  .services-grid .service-card a:hover {
+    text-decoration: none;
+    color: darkgreen;
+    animation: 2s ease-in-out;
+  }
+
 /* Responsive styles */
 @media (max-width: 768px) {
     .menu-toggle {
